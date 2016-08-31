@@ -1,31 +1,24 @@
 <?php
-include 'config.php';
+include 'employees/config.php';
 session_start();
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // username and password sent from form
-
     $myusername = mysqli_real_escape_string($db, $_POST['username']);
     $mypassword = mysqli_real_escape_string($db, $_POST['password']);
-
     $sql = "SELECT * FROM users WHERE passcode = '$mypassword' and name = '$myusername' and session != CURDATE()";
     $result = mysqli_query($db, $sql);
     $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
     $active = $row['id'];
     $time = $row['session'];
-
     $count = mysqli_num_rows($result);
-
     // if result matched $myusername and $mypassword, table row must be 1 row
     if ($count == 1) {
         $sql_1 = "INSERT INTO checkins (user_id,arrival_time) VALUES ('$active',NOW())";
         $result_1 = mysqli_query($db, $sql_1);
         $query = "UPDATE users SET session = CURDATE() WHERE id = '$active'";
         $result_0 = mysqli_query($db, $query);
-
         $_SESSION['login_user'] = $myusername;
-
-        header('location: welcome.php');
+        header('location: employees/welcome.php');
     } else {
         $error = 'Your Login Name or Password is invalid or you are already enter today';
     }
@@ -36,12 +29,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <head>
     <title>Login Page</title>
-    <link rel="stylesheet" href="./mtl/material.min.css">
-    <script src="./mtl/material.min.js"></script>
+    <link rel="stylesheet" href="./employees/material.min.css">
+    <script src="./employees/material.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style type="text/css">
         body {
-            background-image: url("accenture.jpg");
+            background-image: url("employees/accenture.jpg");
         }
         .mdl-layout {
             align-items: center;
