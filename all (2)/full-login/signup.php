@@ -23,9 +23,9 @@
 
        <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
            for="demo-menu-lower-left">
-         <li class="mdl-menu__item" ><a class="mdl-button mdl-button--colored mdl-js-ripple-effect mdl-button--accent" href = "process.php">Les données employées</a></li>
-         <li class="mdl-menu__item mdl-menu__item--full-bleed-divider"><a class="mdl-button mdl-button--colored mdl-js-ripple-effect mdl-button--accent"  href = "signup.php">enregistrement</a></li>
-         <li class="mdl-menu__item" ><a class="mdl-button mdl-button--colored mdl-js-ripple-effect mdl-button--accent" href = "logout.php">déconnexion</a></li>
+         <li class="mdl-menu__item" ><a class="mdl-button mdl-button--colored mdl-js-ripple-effect mdl-button--accent" href = "process.php">Employees data</a></li>
+         <li class="mdl-menu__item mdl-menu__item--full-bleed-divider"><a class="mdl-button mdl-button--colored mdl-js-ripple-effect mdl-button--accent"  href = "signup.php">Registration</a></li>
+         <li class="mdl-menu__item" ><a class="mdl-button mdl-button--colored mdl-js-ripple-effect mdl-button--accent" href = "logout.php">logout</a></li>
        </ul>
         <h2 style="font-family:verdana; text-align:center;">Accenture Présence App</h2>
       </div>
@@ -50,7 +50,7 @@
 			</thead>
 			<thead>
 			<tr>
-			<td>Nom d'utilisateur</td><td> <input type="text" name="username"></td>
+			<td>Nom d'Utililisateur</td><td> <input type="text" name="username"></td>
 			</tr>
 			</thead>
 			<thead>
@@ -60,7 +60,7 @@
 			</thead>
 			<thead>
 			<tr>
-			<td><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="button" type="submit" name="submit" value="déconnexion"> Se connecter </button></td>
+			<td><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="button" type="submit" name="submit" value="Sign-Up"> Se connecter </button></td>
 			</tr>
 			</thead>
 			</form>

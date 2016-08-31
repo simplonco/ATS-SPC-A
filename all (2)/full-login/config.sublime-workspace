@@ -1,0 +1,429 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getdate"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"h",
+				"html	html"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"mysql_",
+				"mysql_connect"
+			],
+			[
+				"fore",
+				"foreach	foreach …"
+			],
+			[
+				"mysql_sele",
+				"mysql_select_db"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"if",
+				"if	If Condition"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/full-login/config.php",
+		"/var/www/html/employees/test.php",
+		"/var/www/html/full-login/session.php",
+		"/var/www/html/full-login/signup.php",
+		"/var/www/html/full-login/welcome.php",
+		"/var/www/html/full-login/process.php",
+		"/var/www/html/employees/session.php",
+		"/var/www/html/employees/config.php",
+		"/var/www/html/full-login/index.php",
+		"/var/www/html/employees/index.php",
+		"/var/www/html/employees/welcome.php",
+		"/home/simplonco/ATS-SPC-A/employees/index.php",
+		"/var/www/html/full-login/connect.php",
+		"/var/www/html/employees/logout.php",
+		"/var/www/html/users/try.php",
+		"/var/www/html/users/process.php",
+		"/var/www/html/users/insert.php",
+		"/var/www/html/users/login.php",
+		"/var/www/html/signup/connect.php",
+		"/var/www/html/full-login/logout.php",
+		"/home/simplonco/ATS-SPC-A/full-login/index.php",
+		"/var/www/html/signup/signup.php",
+		"/var/www/html/full-login/logIn.php",
+		"/var/www/html/users/validation_form.php",
+		"/home/simplonco/ATS-SPC-A/regrister.php",
+		"/var/www/html/signup/style.css",
+		"/var/www/html/signup/signup.html",
+		"/var/www/html/users/config.php",
+		"/var/www/html/users/logIn.php",
+		"/var/www/html/users/welcome.php",
+		"/var/www/html/users/logout.php",
+		"/var/www/html/users/session.php",
+		"/var/www/html/users/style.css",
+		"/var/www/html/api/signup.php",
+		"/var/www/html/index.php",
+		"/var/www/users/login.php",
+		"/home/simplonco/moncv/index.html",
+		"/home/simplonco/moncv/contact.html",
+		"/home/simplonco/moncv/mystyle.css",
+		"/home/simplonco/php-hamming/hamming.php",
+		"/home/simplonco/exercises/suliman/testjava.html",
+		"/home/simplonco/exercises/suliman/dynamic-web.html",
+		"/home/simplonco/exercises/Documents/cv/moncv/newindex.html",
+		"/home/simplonco/suliman-cv/index.html",
+		"/home/simplonco/hello-world/index.html",
+		"/home/simplonco/hello-world/src/index.js",
+		"/home/simplonco/hello-world/src/index.css",
+		"/home/simplonco/momery-game/index.html",
+		"/home/simplonco/momery-game/css-animation.css",
+		"/home/simplonco/momery-game/css-animation.js",
+		"/home/simplonco/myproject/src/AppBundle/Controller/LuckyController.php",
+		"/var/www/html/includes/welcome.php",
+		"/var/www/html/includes/glyphicon.html",
+		"/var/www/html/api/create_task.php",
+		"/var/www/html/includes/control_center.php",
+		"/var/www/html/assets/css/dark.css",
+		"/home/simplonco/big-project/api/signup.php",
+		"/var/www/html/assets/css/hack.css",
+		"/home/simplonco/exercises/shotpitchpromo4-5/index.html",
+		"/var/www/html/big-project/includes/control_center.php",
+		"/var/www/html/big-project/index.php",
+		"/var/www/html/big-project/includes/welcome.php",
+		"/var/www/html/big-project/api/signup.php",
+		"/var/www/html/big-project/api/create_task.php",
+		"/home/simplonco/project-minichat-II-the-return/suliman-chat/index-skeleton.php",
+		"/home/simplonco/project-minichat-II-the-return/index-skeleton.php",
+		"/home/simplonco/exercises/Create-a-CV-with-Bootstrap-to-conquer-the-World/Montreuil-Promo-5/suliman/mycv.html",
+		"/home/simplonco/big-project/index.php",
+		"/home/simplonco/Desktop/moncv/contact.html",
+		"/home/simplonco/Desktop/moncv/index.html",
+		"/home/simplonco/Desktop/moncv/mystyle.css",
+		"/home/simplonco/exercises/Documents/cv/moncv/mystyle.css",
+		"/home/simplonco/exercises/Documents/cv/moncv/contact.html",
+		"/var/www/html/gigasecond.php",
+		"/home/simplonco/exercises/Documents/cv/moncv/mycv.html",
+		"/home/simplonco/php-pangram/pangram.php",
+		"/home/simplonco/exercises/phone-number/phone-number.spec.js",
+		"/home/simplonco/exercises/phone-number/phone-number.js",
+		"/home/simplonco/php-hamming/hamming-suliman.php",
+		"/home/simplonco/js-challenges/sulimanchalenge/bob.js",
+		"/home/simplonco/php-gigasecond/gigasecond.php",
+		"/var/www/html/hello-world.php",
+		"/home/simplonco/php-hamming/hamming_test.php",
+		"/var/www/html/hamming.php",
+		"/var/www/html/suliman-chat/index-skeleton.php",
+		"/home/simplonco/php-hello-world/hello-world_test.php",
+		"/home/simplonco/js-challenges/sulimanchalenge/hello-world.js",
+		"/home/simplonco/Downloads/send_mail_php.php",
+		"/var/www/html/index.html",
+		"/home/simplonco/php-hello-world/hello-world.php",
+		"/home/simplonco/Downloads/index-skeleton(2).php",
+		"/var/www/html/chat-app.html",
+		"/var/www/html/new-chat/chat.func.php",
+		"/home/simplonco/superChat/index.html",
+		"/home/simplonco/Downloads/index-skeleton(1).php",
+		"/home/simplonco/Downloads/sql_query_example_php.php",
+		"/home/simplonco/test.php",
+		"/home/simplonco/exercises/formemailphp/formsend.php",
+		"/home/simplonco/superChat/js/app.js",
+		"/home/simplonco/superChat/js/emoticons.js",
+		"/home/simplonco/superChat/login.html",
+		"/var/www/html/new-chat/connect.db.php",
+		"/var/www/html/new-chat/core.inc.php",
+		"/var/www/html/new-chat/index.php",
+		"/var/www/html/connect.db.php",
+		"/home/simplonco/new-chat/core.inc.php",
+		"/home/simplonco/new-chat/index.php",
+		"/var/www/html/sendmail.php",
+		"/home/simplonco/php-send-mail-form/Montreuil-Promo-5/suliman/formsend.php",
+		"/var/www/html/formsend.php",
+		"/home/simplonco/exercises/index.php",
+		"/home/simplonco/exercises/OUIBUS, le voyage en bus pas cher en France et en Europe_fichiers/648.js",
+		"/var/www/html/index2.php",
+		"/home/simplonco/fizzbuzz/sulimanfizzbuzz.js",
+		"/home/simplonco/js-anagram/anagram.js",
+		"/home/simplonco/php-send-mail-form/formsend.php",
+		"/home/simplonco/js-anagram/anagram.spec.js",
+		"/home/simplonco/fizzbuzz/fizzbuzz.js",
+		"/home/simplonco/js-challenges/sulimanchalenge/fizzbuzz.js",
+		"/home/simplonco/playing-turtle/turtle0.py",
+		"/home/simplonco/ruby-challenges/sulimanruby/fizzbuzz.rb",
+		"/home/simplonco/ruby-hello-world/hello_world.rb",
+		"/home/simplonco/ruby-hamming/hamming_test.rb",
+		"/home/simplonco/js-bob/bob.js",
+		"/home/simplonco/ruby-fizzbuzz/fizzbuzz.rb",
+		"/home/simplonco/exercises/hamming/hamming.js",
+		"/home/simplonco/exercises/fizzbuzz/fizzbuzz.js",
+		"/home/simplonco/learn-python/exercise1.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"() ",
+			"user_name",
+			"CURRENTTIME",
+			"{",
+			"{\n",
+			"{",
+			"OR",
+			"span",
+			"menu",
+			"active",
+			"nav",
+			"private_key",
+			"$private_key",
+			"Length",
+			"LENGTH",
+			"Length",
+			"length",
+			"LENGTH",
+			"Length",
+			"length",
+			"Length",
+			"length",
+			");\n",
+			"Length",
+			"LENGTH",
+			"Length",
+			"length",
+			"LENGTH",
+			"Length",
+			"length",
+			"Length",
+			"length",
+			":",
+			"it",
+			"turtle",
+			"chattr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "config.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
