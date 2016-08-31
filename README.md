@@ -21,7 +21,11 @@ CREATE TABLE IF NOT EXISTS `users` (
   `name` varchar(100) COLLATE latin1_bin NOT NULL,
   `surname` varchar(100) COLLATE latin1_bin NOT NULL,
   `email` varchar(200) COLLATE latin1_bin NOT NULL,
-  `passcode` varchar(100) COLLATE latin1_bin NOT NULL)
+  `passcode` varchar(100) COLLATE latin1_bin NOT NULL
+  `session` date NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 COLLATE=latin1_bin AUTO_INCREMENT=4 ;
+
 CREATE TABLE IF NOT EXISTS `checkins` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `arrival_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
