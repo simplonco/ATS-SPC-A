@@ -16,22 +16,34 @@
 
 - Create database called `ATS_SPC`:
 ```sql
+Table structure for table `users`
+--
+
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) COLLATE latin1_bin NOT NULL,
   `surname` varchar(100) COLLATE latin1_bin NOT NULL,
   `email` varchar(200) COLLATE latin1_bin NOT NULL,
-  `passcode` varchar(100) COLLATE latin1_bin NOT NULL
+  `passcode` varchar(100) COLLATE latin1_bin NOT NULL,
   `session` date NOT NULL,
+  `admin` int(11) NOT NULL,
+  `username` varchar(100) COLLATE latin1_bin NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 COLLATE=latin1_bin AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 COLLATE=latin1_bin AUTO_INCREMENT=19 ;
+
+Table structure for table `checkins`
+--
 
 CREATE TABLE IF NOT EXISTS `checkins` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `arrival_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `full_name` varchar(100) COLLATE latin1_bin NOT NULL,
+  `date_a` date NOT NULL,
+  `checks` varchar(100) COLLATE latin1_bin NOT NULL,
   `user_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_bin AUTO_INCREMENT=28 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_bin AUTO_INCREMENT=101 ;
+
 ```
 - in `config.php` files:
 ```php
